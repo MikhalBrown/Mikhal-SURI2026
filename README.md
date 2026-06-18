@@ -7,7 +7,6 @@ This project organizes the NIST fully registered in-situ and ex-situ LPBF datase
 Dataset Used: https://data.amerigeoss.org/dataset/a-fully-registered-in-situ-and-ex-situ-dataset-for-metal-powder-bed-fusion-additive-manufa
 
 The initial code for processing the data should run like this: 
+
 ```bash
 python src/prepare_lpbf_data.py
-
-Table showing each feature and where it comes from:
