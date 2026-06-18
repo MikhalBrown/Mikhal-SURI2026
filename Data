@@ -215,21 +215,5 @@ def create_data_splits():
     print(f"Train rows: {len(train_df)}")
     print(f"Validation rows: {len(val_df)}")
     print(f"Test rows: {len(test_df)}")
-
-
-# -----------------------------
-# CREATE README
-# -----------------------------
-
-def create_readme():
-    readme_text = """
-# LPBF Defect Fusion Data Package
-
-This project organizes the NIST fully registered in-situ and ex-situ LPBF dataset into three main parts:
-
-## 1. Raw Data
-
-Extracted ZIP archive contents are stored in:
-
 ```text
 data/raw/
