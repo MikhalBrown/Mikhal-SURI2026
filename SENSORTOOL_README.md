@@ -4,11 +4,11 @@ A Python utility to convert sensorTOOL 2.3.1.4177 data exports into organized Ex
 
 ## Features
 
-- **Automatic Column Detection**: Intelligently identifies and maps sensorTOOL columns to standard labels
+- **Automatic Column Detection**: Identifies and maps sensorTOOL columns to standard labels
 - **Multiple Input Formats**: Supports CSV, Excel, and JSON exports from sensorTOOL
 - **Professional Formatting**: Applies headers, borders, colors, and proper number formatting
 - **Flexible Column Mapping**: Manually define custom column mappings if needed
-- **Error Handling**: Gracefully handles missing columns and encoding issues
+- **Error Handling**: Handles missing columns and encoding issues
 
 ## Installation
 
