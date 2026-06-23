@@ -111,12 +111,11 @@ This creates a sample CSV file and converts it to a formatted Excel file.
 
 The output Excel file includes:
 
-- ✓ Properly labeled columns with units
-- ✓ Header row with blue background and white text
-- ✓ Centered text and numeric values
-- ✓ Numbers formatted to 4 decimal places
-- ✓ Auto-adjusted column widths
-- ✓ Professional borders around all cells
+- Properly labeled columns with units
+- Header row with custom background and white text
+- Numbers formatted to 4 decimal places
+- Auto-adjusted column widths
+- Professional borders around all cells
 
 ## Supported Input Formats
 
