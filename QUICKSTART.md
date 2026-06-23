@@ -46,11 +46,11 @@ df = exporter.convert(auto_detect=False, column_mapping=mapping)
 ## 3. Expected Output
 
 Your Excel file will have:
-- ✓ 7 organized columns with units
-- ✓ Professional formatting (blue headers, borders, centered text)
-- ✓ Numbers formatted to 4 decimal places
-- ✓ Auto-sized columns
-- ✓ Sheet name: "Thermal Data"
+- Seven organized columns with units
+- Professional formatting (blue headers, borders, centered text)
+- Numbers formatted to 4 decimal places
+- Auto-sized columns
+- Sheet name: "Thermal Data"
 
 ## 4. Supported Input Formats
 - CSV files (`.csv`)
