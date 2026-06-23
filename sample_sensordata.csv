@@ -1,0 +1,5 @@
+peak_temperature,mean_temperature,cooling_rate,temperature_variance,thermal_gradient,peak_frequency,spectral_energy
+850.5,650.2,45.2,125.3,35.2,1250.5,85.2
+920.3,720.5,52.3,145.2,42.1,1320.3,92.3
+875.1,680.3,48.1,130.5,38.5,1280.1,88.1
+905.8,710.2,50.5,140.1,40.3,1305.8,90.5
