@@ -3,7 +3,7 @@ SensorTOOL Data to Excel Exporter
 Converts sensorTOOL 2.3.1.4177 data exports to organized Excel files
 with labeled columns for thermal and spectral analysis.
 
-Author: Data Processing Pipeline
+Author: Mikhal Brown via Data Processing Pipeline
 Date: 2026
 """
 
