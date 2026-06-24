@@ -8,7 +8,7 @@ with:
 - Predictive defect probability
 - Defect status
 
-Author: Your Name
+Author: Mikhal
 """
 
 import pandas as pd
