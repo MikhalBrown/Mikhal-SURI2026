@@ -8,7 +8,7 @@ with:
 - Predictive defect probability
 - Defect status
 
-Author: Mikhal
+Author: Mikhal Brown
 """
 
 import pandas as pd
