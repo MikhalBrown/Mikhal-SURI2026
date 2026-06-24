@@ -20,7 +20,7 @@ from pathlib import Path
 # USER SETTINGS
 # -----------------------------
 
-INPUT_FILE = "processed_temperature_data.xlsx"   # .csv, .xlsx, or .xls
+INPUT_FILE = "input_file_formatted.xlsx"   # .csv, .xlsx, or .xls
 OUTPUT_FILE = "digital_twin_state_output.xlsx"
 
 DEFECT_THRESHOLD = 0.60   # probability >= 0.60 becomes Defective
