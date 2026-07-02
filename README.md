@@ -379,14 +379,11 @@ Transfer learning across materials (PLA, PETG, ABS, graphene-enhanced polymers)
 
 ## Citation
 If you use this repository in academic work, please cite the associated publications and acknowledge the use of both the NIST registered LPBF and Mendeley Thermal Imaging for ML-Based Defect Detection Datasets (respectively), while noting that the primary target application is Fused Filament Fabrication with a different polymer filament material. The XCT and Thermal Image labeling/processing methodology described here follows the reproducible workflow outlined in the project specification.
-
-```
 - Fu, Y., Downey, A. R. J., Yuan, L., & Huang, H.-T. (2023). Real-time structural validation for material extrusion additive manufacturing. Additive Manufacturing, 65, 103409. https://doi.org/10.1016/j.addma.2023.103409
 
 - Fu, Y., Downey, A. R. J., Yuan, L., Huang, H.-T., & Ogunniyi, E. A. (2025). Simulation-in-the-loop additive manufacturing for real-time structural validation and digital twin development. Additive Manufacturing, 98, 104631. https://doi.org/10.1016/j.addma.2024.104631
 
 - Mendeley Data. "Dataset." Version 1, Mendeley Data, https://data.mendeley.com/datasets/9f26y33jsx/1. Accessed 1 July 2026
-```
 
 ## Acknowledgements 
 This work has been developed as part of ongoing research in Real-Time Digital Twin Development for Additive Manufacturing, integrating thermal sensing, thermal imaging, machine learning, and predictive analytics for defect detection in Fused Filament Fabrication. This research was made possible through collaborative guidance, institutional support, and interdisciplinary engineering from:
