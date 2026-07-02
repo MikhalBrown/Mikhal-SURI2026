@@ -339,50 +339,54 @@ Current engineered features include
 
 ### Future additions:
 
-Layer number
-Ambient temperature
-Print speed
-Fan speed
-Extrusion rate
-Thermal image features
-Vision-based defect descriptors
-Automation
+- Layer number
+- Ambient temperature
+- Print speed
+- Fan speed
+- Extrusion rate
+- Thermal image features
+- Vision-based defect descriptors
+- Automation
 
-Current automation includes
+Current automation includes:
 
-✔ Sensor connection
+```
+- Sensor connection
 
-✔ Automatic data logging
+- Automatic data logging
 
-✔ Folder monitoring
+- Folder monitoring
 
-✔ Automatic Excel updating
+- Automatic Excel updating
 
-✔ Custom column mapping
+- Custom column mapping
 
-✔ Defect prediction
+- Defect prediction
+```
 
 ## Future automation:
 
-Automatic thermal image synchronization
-Live Digital Twin dashboard
-Real-time visualization
-Closed-loop printer control
-Autonomous corrective actions
-Future Work
+```
+- Automatic thermal image synchronization
+- Live Digital Twin dashboard
+- Real-time visualization
+- Closed-loop printer control
+- Autonomous corrective actions
+- Future Work
+```
 
 ### Planned research directions include:
 
-Real-time Digital Twin visualization
-Deep learning for thermal image analysis
-Thermal image segmentation
-CNN-based defect classification
-Sensor and vision data fusion
-Physics-informed Digital Twin modeling
-Adaptive threshold optimization
-Reinforcement learning for print control
-Closed-loop process optimization
-Integration with OctoPrint or Klipper
-Cloud-based Digital Twin deployment
-Explainable AI for defect prediction
+- Real-time Digital Twin visualization
+- Deep learning for thermal image analysis
+- Thermal image segmentation
+- CNN-based defect classification
+- Sensor and vision data fusion
+- Physics-informed Digital Twin modeling
+- Adaptive threshold optimization
+- Reinforcement learning for print control
+- Closed-loop process optimization
+- Integration with OctoPrint or Klipper
+- Cloud-based Digital Twin deployment
+- Explainable AI for defect prediction
 Transfer learning across materials (PLA, PETG, ABS, graphene-enhanced polymers)
