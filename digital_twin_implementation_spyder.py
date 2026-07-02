@@ -1,7 +1,7 @@
 """
 create_digital_twin_state_spyder_filepicker.py
 
-Spyder-ready version.
+Spyder-compatible (for testing)
 
 Opens File Explorer so you can choose a CSV or Excel sensorTOOL data file.
 Creates an Excel file with:
