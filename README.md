@@ -347,20 +347,12 @@ Current engineered features include
 - Automation
 
 Current automation includes:
-
-```
 - Sensor connection
-
 - Automatic data logging
-
 - Folder monitoring
-
 - Automatic Excel updating
-
 - Custom column mapping
-
 - Defect prediction
-```
 
 ## Future automation:
 
