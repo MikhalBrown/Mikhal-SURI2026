@@ -39,12 +39,12 @@ before catastrophic failure occurs.
 
 This research aims to:
 
-Develop a complete thermal monitoring pipeline
-Build predictive defect probability models
-Integrate thermal sensor data with thermal imaging
-Validate predictions using XCT-derived defect labels
-Develop autonomous decision-making algorithms
-Build a scalable Digital Twin architecture
+- Develop a complete thermal monitoring pipeline
+- Build predictive defect probability models
+- Integrate thermal sensor data with thermal imaging
+- Validate predictions using XCT-derived defect labels
+- Develop autonomous decision-making algorithms
+- Build a scalable Digital Twin architecture
 
 ## Digital Twin Architecture
 ```
