@@ -18,24 +18,20 @@ Unlike traditional post-print inspection methods, this project focuses on in-sit
 
 Many failures in FFF printing—including:
 
-```
 - Over-extrusion
 - Under-extrusion
 - Warping
 - Layer shifting
 - Delamination
 - Thermal instability
-```
 
 are caused by abnormal thermal behavior. By continuously monitoring nozzle temperatures and thermal distributions, the Digital Twin can determine whether the printing process is remaining within acceptable operating conditions.
 
 The long-term vision is a system capable of automatically deciding whether to:
 
-```
 - Continue printing 
 - Pause the print
 - Cancel the print
-```
 
 before catastrophic failure occurs.
 
