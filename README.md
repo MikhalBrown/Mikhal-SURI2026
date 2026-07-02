@@ -304,10 +304,10 @@ Defect Probability
 
 Outputs include:
 ```
-- Predicted defect probability
-- Defect status
-- Confidence score
-- Decision Engine
+- Predicted defect probability (%)
+- Defect status (Defective/Non-Defective)
+- Confidence score (#)
+- Decision Engine (Continue / Pause / Cancel Print)
 ```
 
 The Digital Twin makes autonomous decisions using validated defect thresholds.
@@ -355,17 +355,14 @@ Current automation includes:
 - Defect prediction
 
 ## Future automation:
-
-```
 - Automatic thermal image synchronization
 - Live Digital Twin dashboard
 - Real-time visualization
 - Closed-loop printer control
 - Autonomous corrective actions
-- Future Work
-```
 
-### Planned research directions include:
+## Future Work
+Planned research directions include:
 
 - Real-time Digital Twin visualization
 - Deep learning for thermal image analysis
