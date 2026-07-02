@@ -1,6 +1,6 @@
 # Real-Time Thermal Process Monitoring Towards Digital Twin Development for Fused Filament Fabrication (FFF)
 
-## Project Overview
+### Project Overview
 
 This repository contains the research, software, datasets, and machine learning pipeline developed for real-time thermal process monitoring toward Digital Twin Development for Fused Filament Fabrication (FFF) additive manufacturing.
 
