@@ -210,18 +210,19 @@ These features are extracted from raw sensor measurements and transformed into p
 
 Thermal imaging is incorporated to provide spatial temperature information that is not observable using a single-point infrared sensor.
 
+
 The thermal image database currently contains multiple print conditions:
 
-Normal prints
-Over-extrusion
-Under-extrusion
-Warping
-Layer shifting
+- Normal prints
+- Over-extrusion
+- Under-extrusion
+- Warping
+-Layer shifting
 
 Captured using:
 
-FLIR A70
-Fluke RSE600
+`- FLIR A70 `
+`- Fluke RSE600 `
 
 Thermal images are intended to support future computer vision and multimodal learning by enabling extraction of image-based features such as:
 
