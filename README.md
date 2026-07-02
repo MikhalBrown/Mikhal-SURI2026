@@ -164,23 +164,24 @@ Connected through: `sensorTOOL v2.3.1.4177`
 - Dynamic heating analysis
 - Thermal validation
 
- Approximately
-
-1,500 thermal images per print
-
-were collected for multiple defect scenarios.
+ Approximately 1,500 thermal images per print were collected for multiple defect scenarios.
 
 ### Current Software
-Python
-Pandas
-NumPy
-Scikit-Learn
-OpenPyXL
-Spyder
-GitHub
-sensorTOOL
-Excel
+- Python
+- Excel
+- Spyder
+- sensorTOOL 2.3.1.4177
+- GitHub
+- Excel
+
+Extensions:
+```
+- Pandas
+- NumPy
+- Scikit-Learn
+- OpenPyXL
 Data Sources
+```
 
 The Digital Twin combines multiple sensing modalities.
 
@@ -189,8 +190,8 @@ The Digital Twin combines multiple sensing modalities.
 Real-time nozzle temperature measurements
 
 Examples:
-Peak Temperature
-Mean Temperature
+- Peak Temperature
+- Mean Temperature
 
 ### 2. Derived Thermal Features
 
