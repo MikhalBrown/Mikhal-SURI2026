@@ -76,9 +76,9 @@ Continue │ Pause │ Cancel Print
           ▼
 Digital Twin Dashboard
 Repository Structure
-Real-Time-Thermal-Digital-Twin/
 ```
-``` bash 
+``` bash
+Real-Time-Thermal-Digital-Twin/ 
 │
 ├── Data/
 │   ├── Raw/
