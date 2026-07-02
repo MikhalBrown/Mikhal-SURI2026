@@ -7,6 +7,8 @@ print decision: Continue Print, Pause Print, or Cancel Print.
 
 Designed for Ender 5 Max PLA thermal monitoring using sensorTOOL data.
 
+Compatible with Spyder primarily.
+
 Author: Mikhal Brown
 Updated with print-decision logic.
 """
