@@ -151,21 +151,6 @@ Temperature Sensor: `Micro-Epsilon thermoMETER`
 
 Connected through: `sensorTOOL v2.3.1.4177`
 
-## Thermal Cameras
-`FLIR A70` Used for:
-
-- Layer-by-layer thermal monitoring
-- Temperature field visualization
-- Thermal feature extraction
-
-`Fluke RSE600` Used for:
-
-- High-resolution thermal imaging
-- Dynamic heating analysis
-- Thermal validation
-
- Approximately 1,500 thermal images per print were collected for multiple defect scenarios.
-
 ## Current Software
 - Python
 - Excel
@@ -220,8 +205,8 @@ The thermal image database currently contains multiple print conditions:
 
 Captured using:
 
-`- FLIR A70 `
-`- Fluke RSE600 `
+`FLIR A70 `
+`Fluke RSE600 `
 
 Thermal images are intended to support future computer vision and multimodal learning by enabling extraction of image-based features such as:
 
@@ -235,6 +220,21 @@ Thermal images are intended to support future computer vision and multimodal lea
 
 These image-derived features will ultimately be fused with sensor measurements to improve prediction accuracy and Digital Twin fidelity.
 
+## Thermal Cameras
+`FLIR A70` Used for:
+
+- Layer-by-layer thermal monitoring
+- Temperature field visualization
+- Thermal feature extraction
+
+`Fluke RSE600` Used for:
+
+- High-resolution thermal imaging
+- Dynamic heating analysis
+- Thermal validation
+
+ Approximately 1,500 thermal images per print were collected for multiple defect scenarios.
+ 
 ## XCT Defect Labeling (Ground Truth Development)
 
 Before implementing the FFF Digital Twin, this project introduced an XCT-based defect-labeling workflow using the publicly available NIST LPBF dataset. The purpose was to establish a rigorous methodology for generating reliable ground-truth defect labels and validating machine learning pipelines before transferring the approach to fused filament fabrication.
