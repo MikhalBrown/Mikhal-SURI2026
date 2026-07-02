@@ -25,9 +25,7 @@ Layer shifting
 Delamination
 Thermal instability
 
-are caused by abnormal thermal behavior.
-
-By continuously monitoring nozzle temperatures and thermal distributions, the Digital Twin can determine whether the printing process is remaining within acceptable operating conditions.
+are caused by abnormal thermal behavior. By continuously monitoring nozzle temperatures and thermal distributions, the Digital Twin can determine whether the printing process is remaining within acceptable operating conditions.
 
 The long-term vision is a system capable of automatically deciding whether to:
 
