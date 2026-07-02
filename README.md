@@ -195,13 +195,13 @@ Examples:
 
 The prediction model currently uses engineered features including:
 ``` bash
-Peak Temperature
-Mean Temperature
-Cooling Rate
-Temperature Variance
-Thermal Gradient
-Peak Frequency
-Spectral Energy
+- Peak Temperature (°C)
+- Mean Temperature (°C)
+- Cooling Rate (°C/s)
+- Thermal Gradient (°C²)
+- Temperature Variance (°C²/mm)
+- Peak Frequency (Hz)
+- Spectral Energy (dB)
 ```
 
 These features are extracted from raw sensor measurements and transformed into predictors for defect estimation.
@@ -308,18 +308,18 @@ Defect Probability
 
 Outputs include
 ```
-Predicted defect probability
-Defect status
-Confidence score
-Decision Engine
+- Predicted defect probability
+- Defect status
+- Confidence score
+- Decision Engine
 ```
 
 The Digital Twin makes autonomous decisions using validated defect thresholds.
 ``` bash
 Probability	Action
 < 0.30	          Continue Print
-0.30 – 0.60	Monitor / Warning
-0.60 – 0.80	Pause Print
+0.30 – 0.60	    Monitor / Warning
+0.60 – 0.80	       Pause Print
 > 0.80	          Cancel Print
 ```
 
