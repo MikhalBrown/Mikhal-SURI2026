@@ -31,9 +31,11 @@ are caused by abnormal thermal behavior. By continuously monitoring nozzle tempe
 
 The long-term vision is a system capable of automatically deciding whether to:
 
-Continue printing
-Pause the print
-Cancel the print
+```
+- Continue printing 
+- Pause the print
+- Cancel the print
+```
 
 before catastrophic failure occurs.
 
