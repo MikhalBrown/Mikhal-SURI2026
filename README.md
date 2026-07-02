@@ -156,21 +156,17 @@ Temperature Sensor: `Micro-Epsilon thermoMETER`
 Connected through: `sensorTOOL v2.3.1.4177`
 
 ## Thermal Cameras
-`FLIR A70`
+`FLIR A70` Used for:
 
-Used for:
+- Layer-by-layer thermal monitoring
+- Temperature field visualization
+- Thermal feature extraction
 
-Layer-by-layer thermal monitoring
-Temperature field visualization
-Thermal feature extraction
+`Fluke RSE600` Used for:
 
-`Fluke RSE600`
-
-Used for:
-
-High-resolution thermal imaging
-Dynamic heating analysis
-Thermal validation
+- High-resolution thermal imaging
+- Dynamic heating analysis
+- Thermal validation
 
  Approximately
 
