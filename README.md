@@ -180,10 +180,8 @@ Extensions:
 - NumPy
 - Scikit-Learn
 - OpenPyXL
-Data Sources
+- Data Sources
 ```
-
-The Digital Twin combines multiple sensing modalities.
 
 ### 1. ThermoMETER Sensor
 
