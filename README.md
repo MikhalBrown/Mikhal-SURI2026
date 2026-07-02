@@ -166,7 +166,7 @@ Connected through: `sensorTOOL v2.3.1.4177`
 
  Approximately 1,500 thermal images per print were collected for multiple defect scenarios.
 
-### Current Software
+## Current Software
 - Python
 - Excel
 - Spyder
