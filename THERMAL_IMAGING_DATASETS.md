@@ -36,7 +36,7 @@ Images of successful, defect-free prints used as reference and baseline data.
 
 ## Accessing the Image Data
 
-The image datasets are stored in the **`data`** branch of this repository.
+The image datasets are stored in the **`thermal-imaging-data`** branch of this repository.
 
 To clone the repository and access the image datasets:
 
@@ -45,8 +45,8 @@ To clone the repository and access the image datasets:
 git clone https://github.com/MikhalBrown/Mikhal-SURI2026.git
 cd Mikhal-SURI2026
 
-# Switch to the data branch
-git checkout data
+# Switch to the thermal-imaging-data branch
+git checkout thermal-imaging-data
 ```
 
 ## Prerequisites: Installing Git LFS
@@ -100,7 +100,7 @@ git clone https://github.com/MikhalBrown/Mikhal-SURI2026.git
 cd Mikhal-SURI2026
 
 # Switch to the data branch
-git checkout data
+git checkout thermal-imaging-data
 
 # Configure Git LFS to track image files
 git lfs track "*.jpg" "*.png" "*.gif" "*.tiff" "*.bmp"
@@ -148,4 +148,4 @@ For more information on Git LFS, visit: https://git-lfs.com
 
 ## Data Branch Link
 
-Access the image datasets here: [https://github.com/MikhalBrown/Mikhal-SURI2026/tree/data](https://github.com/MikhalBrown/Mikhal-SURI2026/tree/data)
+Access the image datasets here: [https://github.com/MikhalBrown/Mikhal-SURI2026/tree/data](https://github.com/MikhalBrown/Mikhal-SURI2026/tree/thermal-imaging-data)
