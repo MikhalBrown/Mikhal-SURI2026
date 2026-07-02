@@ -4,7 +4,7 @@
 
 This repository contains the research, software, datasets, and machine learning pipeline developed for real-time thermal process monitoring toward Digital Twin Development for Fused Filament Fabrication (FFF) additive manufacturing.
 
-The objective of this project is to develop a computational framework capable of:
+### The objective of this project is to develop a computational framework capable of:
 
 Monitoring thermal behavior during printing
 Predicting print defects before they occur
