@@ -325,6 +325,7 @@ Thresholds will continue to be refined using experimental validation on the Ende
 
 Current engineered features include
 
+```
 - Peak Temperature (°C)
 - Mean Temperature (°C)
 - Cooling Rate (°C/s)
@@ -332,6 +333,7 @@ Current engineered features include
 - Temperature Variance (°C²/mm)
 - Peak Frequency (Hz)
 - Spectral Energy (dB)
+```
 
 ### Future additions:
 
