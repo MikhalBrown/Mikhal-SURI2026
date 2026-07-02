@@ -47,8 +47,9 @@ Integrate thermal sensor data with thermal imaging
 Validate predictions using XCT-derived defect labels
 Develop autonomous decision-making algorithms
 Build a scalable Digital Twin architecture
-### Digital Twin Architecture
 
+## Digital Twin Architecture
+```
 ThermoMETER Sensor
           │
           ▼
@@ -76,7 +77,8 @@ Continue │ Pause │ Cancel Print
 Digital Twin Dashboard
 Repository Structure
 Real-Time-Thermal-Digital-Twin/
-
+```
+``` bash 
 │
 ├── Data/
 │   ├── Raw/
@@ -103,11 +105,12 @@ Real-Time-Thermal-Digital-Twin/
 ├── Figures/
 │
 └── README.md
+```
 
 ## Current System Workflow
 
 The current implementation consists of the following pipeline:
-
+```
 ThermoMETER Sensor
 
 ↓
@@ -141,32 +144,25 @@ Predictive Defect Probability
 ↓
 
 Print Decision
-Hardware
-Printer
+```
+Hardware Printer: `Creality Ender 5 Max`
 
-Creality Ender 5 Max
+Material: `PLA`
 
-Material:
+Temperature Sensor: `Micro-Epsilon thermoMETER`
 
-PLA
-
-Temperature Sensor
-
-Micro-Epsilon thermoMETER
-
-Connected through:
-
-sensorTOOL v2.3.1.4177
+Connected through: `sensorTOOL v2.3.1.4177`
 
 ## Thermal Cameras
-FLIR A70
+`FLIR A70`
 
 Used for:
 
 Layer-by-layer thermal monitoring
 Temperature field visualization
 Thermal feature extraction
-Fluke RSE600
+
+`Fluke RSE600`
 
 Used for:
 
@@ -174,13 +170,13 @@ High-resolution thermal imaging
 Dynamic heating analysis
 Thermal validation
 
-Approximately
+ Approximately
 
 1,500 thermal images per print
 
 were collected for multiple defect scenarios.
 
-Current Software
+### Current Software
 Python
 Pandas
 NumPy
@@ -194,18 +190,18 @@ Data Sources
 
 The Digital Twin combines multiple sensing modalities.
 
-1. ThermoMETER Sensor
+### 1. ThermoMETER Sensor
 
 Real-time nozzle temperature measurements
 
 Examples:
-
 Peak Temperature
 Mean Temperature
-2. Derived Thermal Features
+
+### 2. Derived Thermal Features
 
 The prediction model currently uses engineered features including:
-
+``` bash
 Peak Temperature
 Mean Temperature
 Cooling Rate
@@ -213,10 +209,11 @@ Temperature Variance
 Thermal Gradient
 Peak Frequency
 Spectral Energy
+```
 
 These features are extracted from raw sensor measurements and transformed into predictors for defect estimation.
 
-3. Thermal Imaging
+### 3. Thermal Imaging
 
 Thermal imaging is incorporated to provide spatial temperature information that is not observable using a single-point infrared sensor.
 
@@ -235,6 +232,7 @@ Fluke RSE600
 
 Thermal images are intended to support future computer vision and multimodal learning by enabling extraction of image-based features such as:
 
+``` bash
 Maximum surface temperature
 Temperature distribution
 Thermal gradients
@@ -242,6 +240,7 @@ Heat concentration
 Cooling uniformity
 Hot spot localization
 Layer-wise thermal evolution
+```
 
 These image-derived features will ultimately be fused with sensor measurements to improve prediction accuracy and Digital Twin fidelity.
 
@@ -273,7 +272,8 @@ Justification of the selected threshold based on the observed data distribution
 
 Although the NIST dataset represents Laser Powder Bed Fusion (LPBF) rather than FFF, the methodology established the foundation for this repository's labeling strategy. The same concepts will be adapted to FFF using thermal sensor data, thermal imaging, and future destructive or non-destructive validation methods.
 
-Machine Learning Pipeline
+## Machine Learning Pipeline
+``` bash
 Raw Temperature Data
 
 ↓
@@ -301,30 +301,33 @@ Threshold Evaluation
 Decision Logic
 
 ↓
+```
 
-Digital Twin Output
+## Digital Twin Output
 Predictive Model
 
 Current model predicts:
 
 Defect Probability
 
-0.00 ────────────── 1.00
+` 0.00 ────────────── 1.00 `
 
 Outputs include
-
+```
 Predicted defect probability
 Defect status
 Confidence score
 Decision Engine
+```
 
 The Digital Twin makes autonomous decisions using validated defect thresholds.
-
+``` bash
 Probability	Action
-< 0.30	Continue Print
+< 0.30	          Continue Print
 0.30 – 0.60	Monitor / Warning
 0.60 – 0.80	Pause Print
-> 0.80	Cancel Print
+> 0.80	          Cancel Print
+```
 
 Thresholds will continue to be refined using experimental validation on the Ender 5 Max with PLA.
 
@@ -340,7 +343,7 @@ Current engineered features include
 - Peak Frequency (Hz)
 - Spectral Energy (dB)
 
-Future additions:
+### Future additions:
 
 Layer number
 Ambient temperature
@@ -365,7 +368,7 @@ Current automation includes
 
 ✔ Defect prediction
 
-Future automation:
+## Future automation:
 
 Automatic thermal image synchronization
 Live Digital Twin dashboard
@@ -374,7 +377,7 @@ Closed-loop printer control
 Autonomous corrective actions
 Future Work
 
-Planned research directions include:
+### Planned research directions include:
 
 Real-time Digital Twin visualization
 Deep learning for thermal image analysis
