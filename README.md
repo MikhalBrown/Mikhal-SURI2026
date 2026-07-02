@@ -194,7 +194,7 @@ Examples:
 ### 2. Derived Thermal Features
 
 The prediction model currently uses engineered features including:
-``` bash
+
 - Peak Temperature (°C)
 - Mean Temperature (°C)
 - Cooling Rate (°C/s)
@@ -202,7 +202,6 @@ The prediction model currently uses engineered features including:
 - Temperature Variance (°C²/mm)
 - Peak Frequency (Hz)
 - Spectral Energy (dB)
-```
 
 These features are extracted from raw sensor measurements and transformed into predictors for defect estimation.
 
@@ -226,15 +225,13 @@ Captured using:
 
 Thermal images are intended to support future computer vision and multimodal learning by enabling extraction of image-based features such as:
 
-``` bash
-Maximum surface temperature
-Temperature distribution
-Thermal gradients
-Heat concentration
-Cooling uniformity
-Hot spot localization
-Layer-wise thermal evolution
-```
+- Maximum surface temperature
+- Temperature distribution
+- Thermal gradients
+- Heat concentration
+- Cooling uniformity
+- Hot spot localization
+- Layer-wise thermal evolution
 
 These image-derived features will ultimately be fused with sensor measurements to improve prediction accuracy and Digital Twin fidelity.
 
@@ -244,25 +241,24 @@ Before implementing the FFF Digital Twin, this project introduced an XCT-based d
 
 The introductory workflow consisted of:
 
-Understanding the multimodal dataset structure
-Identifying process, melt-pool, optical-intensity, and XCT feature groups
-Selecting an appropriate prediction unit (voxel block, patch, or segment)
-Converting XCT voxel information into binary defect labels
-Cleaning and preprocessing the dataset
-Creating train, validation, and test splits
-Training baseline models
-Developing multimodal fusion strategies
-Evaluating performance using precision, recall, F1-score, ROC-AUC, and confusion matrices
-Performing manual error analysis and generating reproducible experiments
+- Understanding the multimodal dataset structure
+- Identifying process, melt-pool, optical-intensity, and XCT feature groups
+- Selecting an appropriate prediction unit (voxel block, patch, or segment)
+- Converting XCT voxel information into binary defect labels
+- Cleaning and preprocessing the dataset
+- Creating train, validation, and test splits
+- Training baseline models
+- Developing multimodal fusion strategies
+- Evaluating performance using precision, recall, F1-score, ROC-AUC, and confusion matrices
+- Performing manual error analysis and generating reproducible experiments
 
 To create the labels, each localized block of material was assigned a defect score based on the fraction of defective XCT voxels it contained. Blocks whose defect score exceeded a validated threshold were labeled Defect, while all remaining blocks were labeled No Defect. This threshold-based approach provided an interpretable and reproducible definition of ground truth and served as the validation framework for subsequent predictive models.
 
 As part of this work, the following supporting analyses and datasets were developed:
 
-Defect-score distribution histograms with annotated thresholds
-Publication-quality visualizations of the threshold selection
-Merged datasets containing original XCT features, computed defect scores, binary defect labels, and source-layer identifiers
-Justification of the selected threshold based on the observed data distribution
+- Defect-score distribution histograms with annotated thresholds
+- Visualizations of the threshold selection
+- Merged datasets containing original XCT features, computed defect scores, binary defect labels, and source-layer identifiers
 
 Although the NIST dataset represents Laser Powder Bed Fusion (LPBF) rather than FFF, the methodology established the foundation for this repository's labeling strategy. The same concepts will be adapted to FFF using thermal sensor data, thermal imaging, and future destructive or non-destructive validation methods.
 
@@ -306,7 +302,7 @@ Defect Probability
 
 ` 0.00 ────────────── 1.00 `
 
-Outputs include
+Outputs include:
 ```
 - Predicted defect probability
 - Defect status
