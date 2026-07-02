@@ -16,7 +16,7 @@ Unlike traditional post-print inspection methods, this project focuses on in-sit
 
 ## Research Motivation
 
-Many failures in FFF printing—including:
+Many failures in FFF printing, including:
 
 - Over-extrusion
 - Under-extrusion
