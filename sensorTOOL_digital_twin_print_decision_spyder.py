@@ -50,19 +50,19 @@ NORMAL_RANGES = {
     "Cooling Rate (°C/s)": (0, 25),
     "Temperature Variance (°C²)": (0, 40),
     "Thermal Gradient (°C/mm)": (0, 15),
-    "Peak Frequency (Hz)": (0, 10),
+    "Peak Frequency (Hz)": (0, 30),
     "Spectral Energy (dB)": (0, 5000),
 }
 
 # Critical safety/quality limits.
 # If any feature goes outside these limits, the system recommends Cancel Print.
 CRITICAL_LIMITS = {
-    "Peak Temperature (°C)": (180, 245),
+    "Peak Temperature (°C)": (180, 275),
     "Mean Temperature (°C)": (175, 235),
     "Cooling Rate (°C/s)": (0, 35),
     "Temperature Variance (°C²)": (0, 60),
     "Thermal Gradient (°C/mm)": (0, 25),
-    "Peak Frequency (Hz)": (0, 15),
+    "Peak Frequency (Hz)": (0, 75),
     "Spectral Energy (dB)": (0, 6000),
 }
 
@@ -80,7 +80,7 @@ FEATURE_WEIGHTS = {
 
 # Defect and print-decision thresholds
 DEFECT_THRESHOLD = 0.60
-PAUSE_THRESHOLD = 0.35
+PAUSE_THRESHOLD = 0.38
 CANCEL_THRESHOLD = 0.70
 
 
